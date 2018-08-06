@@ -1,0 +1,91 @@
+{
+        "Plain": [{
+            "ID": 1,
+            "Gold Cost": 1,
+            "Movement Punishment": 0,
+            "Vision Field Punishment": 0,
+            "Land Fertility":[10,80],
+            "Total Mount of Main Resource":[1000,5000],
+            "Total Mount of Sub Resource":[500,2000],
+            "Has Grass":[true,false],
+            "Grass Mount":[1000,1500],
+            "Special Building":["FarmLand","Pasture"]
+          }],
+        "Hill": [{
+            "ID": 2,
+            "Gold Cost": 2,
+            "Movement Punishment": -2,
+            "Vision Field Punishment": 1,
+            "Land Fertility":[5,70],
+            "Total Mount of Main Resource":[1000,5000],
+            "Total Mount of Sub Resource":[500,2000],
+            "Special Building":["Mine","StoneMining"]
+          }],
+        "Pond":[{
+            "ID": 3,
+            "Gold Cost": 1,
+            "Movement Punishment": -1,
+            "Vision Field Punishment": 0,
+            "Land Fertility":[30,80],
+            "Total Mount of Main Resource":[2000,8000],
+            "Total Mount of Sub Resource":[1000,2500],
+            "Special Building":["Fishery"]
+        }],
+        "River":[{
+            "ID": 4,
+            "Gold Cost": 1,
+            "Movement Punishment": 0,
+            "Vision Field Punishment": 0,
+            "Land Fertility":[20,90],
+            "Total Mount of Main Resource":[2000,8000],
+            "Total Mount of Sub Resource":[1000,2500],
+            "Special Building":["Dock","SandMining"]
+        }],
+        "River source":[{
+            "ID": 5,
+            "Gold Cost": 1,
+            "Movement Punishment": 0,
+            "Vision Field Punishment": 0,
+            "Land Fertility":[30,80],
+            "Total Mount of Main Resource":[5000,8000],
+            "Total Mount of Sub Resource":[1000,2500],
+            "Special Building":["WaterSource"]
+        }],
+        "Forest":[{
+            "ID": 6,
+            "Gold Cost": 1,
+            "Movement Punishment": -1,
+            "Vision Field Punishment": -1,
+            "Land Fertility":[20,90],
+            "Total Mount of Main Resource":[1000,4000],
+            "Total Mount of Sub Resource":[500,1500],
+            "Special Building":["Sawmill"]
+        }],
+        "Desert":[{
+            "ID": 7,
+            "Gold Cost": 0,
+            "Movement Punishment": -1,
+            "Vision Field Punishment": 0,
+            "Land Fertility":[0,50],
+            "Total Mount of Main Resource":[3000,10000],
+            "Total Mount of Sub Resource":[500,1500],
+            "Special Building":["Oil","DatePalm"]
+        }],
+        "Mountain":[{
+            "ID": 8,
+            "Gold Cost": 1,
+            "Movement Punishment": -3,
+            "Vision Field Punishment": 0,
+            "Land Fertility":[5,60],
+            "Total Mount of Main Resource":[2000,7000],
+            "Total Mount of Sub Resource":[500,1500],
+            "Special Building":["Mine","StoneMining"]      
+        }],
+        "Sea":[{
+            "ID": 9,
+            "Gold Cost": 1,
+            "Movement Punishment": -2,
+            "Vision Field Punishment": 0,
+            "Land Fertility":[10,50]    
+        }]
+      }
